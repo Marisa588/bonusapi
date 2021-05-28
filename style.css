@@ -1,0 +1,55 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+#random-activity{
+    background-color: gray;
+    width: calc(90% - 15px);
+    margin: auto;
+    margin-top: 15px;
+    padding: 15px;
+}
+#random-activity h1 {
+    color: white;
+}
+#random-activity p {
+    color: goldenrod;
+}
+#main{
+    width: calc(90% - 15px);
+    margin: auto;
+    margin-top: 15px;
+    padding: 15px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around; 
+}
+#main > section {
+    padding: 15px;
+}
+
+#activity-form{
+    background-color: lightblue;
+    width: 50%;
+    min-width: 20rem;
+    height: 500px;
+    min-height: 300px;
+}
+#activity-types{
+    background-color: lightgreen;
+    width: 50%;
+    min-width: 20rem;
+    height: 500px;
+}
+
+
+#activity-types div{
+    margin: 10px;
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+#activity-types p{
+    font-size: 1rem;
